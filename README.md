@@ -7,7 +7,9 @@ This is a repository for the data and analysis code for the paper "The Effects o
 ### 3 Data Files: 
 
 Individual level data for Experiment 1: experimentOneIndividualLevelRes.csv
+
 Individual level data of subjects' decisions under social influence in Experiment 2 : experimentTwoWithInfluenceIndividualLevelRes.csv
+
 Individual level data of subjects' decisions with no social influence in Experiment 2 : experimentTwoNoInfluenceIndividualLevelRes.csv
 
 #### Interpretation
