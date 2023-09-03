@@ -10,10 +10,13 @@ Individual level data for Experiment 1: experimentOneIndividualLevelRes.csv
 Individual level data of subjects' decisions under social influence in Experiment 2 : experimentTwoWithInfluenceIndividualLevelRes.csv
 Individual level data of subjects' decisions with no social influence in Experiment 2 : experimentTwoNoInfluenceIndividualLevelRes.csv
 
-#### 
+#### Interpretation
 
 * `treatment` Int. The treatment of each subject assigned in each experiment. `0`: control treatment (no AI), `1`: AI was presented before subjects independently processed the information. (AI-before), `2`: AI was presented after subjects independently processed the information. (AI after),
 * `workerId` Int. The unique ID for each subject assigned in each experiment.
+* `finalCorrectness` Bool. Whether the final decision of the subject on the veracity of this news was correct or not.
+* `mlCorrectness` Bool. Whether the AI model's prediction on the veracity of this news was correct or not.
+
 
 
 
