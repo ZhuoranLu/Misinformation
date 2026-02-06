@@ -1,4 +1,4 @@
-# Misinformation
+# Human-AI Interaction in Misinformation
 
 This is a repository for the data and analysis code for a series of human-AI interaction works in the context of misinformation spread, including: 
 
