@@ -1,6 +1,6 @@
 # Misinformation
 
-This is a repository for the data and analysis code for a series of works in AI & misinformation, including: 
+This is a repository for the data and analysis code for a series of human-AI interaction works in the context of misinformation spread, including: 
 
 The Effects of AI-based Credibility Indicators on the Detection and Spread of Misinformation under Social Influence. <br>
 Zhuoran Lu, Patrick Li, Weilong Wang, and Ming Yin. <br>
