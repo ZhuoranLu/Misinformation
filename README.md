@@ -2,17 +2,17 @@
 
 This is a repository for the data and analysis code for a series of works in AI & misinformation, including: 
 
-The Effects of AI-based Credibility Indicators on the Detection and Spread of Misinformation under Social Influence.
-Zhuoran Lu, Patrick Li, Weilong Wang, and Ming Yin.
-The 25th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW), Online, November 2022
+The Effects of AI-based Credibility Indicators on the Detection and Spread of Misinformation under Social Influence. <br>
+Zhuoran Lu, Patrick Li, Weilong Wang, and Ming Yin. <br>
+The 25th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW), Online, November 2022 <br>
 
-Understanding the Effects of AI-based Credibility Indicators When People Are Influenced By Both Peers and Experts. [in preparation]
-Zhuoran Lu, Patrick Li, Weilong Wang, and Ming Yin.
-The 43rd ACM Conference on Human Factors in Computing Systems (CHI), Yokohama, May 2025.
+Understanding the Effects of AI-based Credibility Indicators When People Are Influenced By Both Peers and Experts. [in preparation] <br>
+Zhuoran Lu, Patrick Li, Weilong Wang, and Ming Yin. <br>
+The 43rd ACM Conference on Human Factors in Computing Systems (CHI), Yokohama, May 2025. <br>
 
-Large Language Model (LLM)-driven Adversarial Social Influences in Online Information Spread: Risks and Interventions. [in preparation]
-Zhuoran Lu*, Gionnieve Lim*, and Ming Yin.
-The 44th ACM Conference on Human Factors in Computing Systems (CHI), Barcelona, May 2026.
+Large Language Model (LLM)-driven Adversarial Social Influences in Online Information Spread: Risks and Interventions. [in preparation] <br>
+Zhuoran Lu*, Gionnieve Lim*, and Ming Yin. <br>
+The 44th ACM Conference on Human Factors in Computing Systems (CHI), Barcelona, May 2026. <br>
 
 
 ## Repository Structure
