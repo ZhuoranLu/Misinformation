@@ -1,0 +1,13 @@
+.DS_Store
+.venv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+*.zip
+
+# Recreated locally by the CHI 2025 runner.
+/papers/chi2025-peers-and-experts/results/*
+!/papers/chi2025-peers-and-experts/results/.gitkeep

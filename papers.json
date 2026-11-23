@@ -1,0 +1,52 @@
+{
+  "papers": [
+    {
+      "id": "cscw2022-credibility-indicators",
+      "title": "The Effects of AI-based Credibility Indicators on the Detection and Spread of Misinformation under Social Influence",
+      "authors": [
+        "Zhuoran Lu",
+        "Patrick Li",
+        "Weilong Wang",
+        "Ming Yin"
+      ],
+      "venue": "CSCW",
+      "year": 2022,
+      "doi": "10.1145/3555562",
+      "path": "papers/cscw2022-credibility-indicators",
+      "data_status": "available",
+      "analysis_status": "descriptive_notebook"
+    },
+    {
+      "id": "chi2025-peers-and-experts",
+      "title": "Understanding the Effects of AI-based Credibility Indicators When People Are Influenced By Both Peers and Experts",
+      "authors": [
+        "Zhuoran Lu",
+        "Patrick Li",
+        "Weilong Wang",
+        "Ming Yin"
+      ],
+      "venue": "CHI",
+      "year": 2025,
+      "doi": "10.1145/3706598.3713871",
+      "path": "papers/chi2025-peers-and-experts",
+      "data_status": "available_pseudonymized",
+      "analysis_status": "one_command_pipeline",
+      "entrypoint": "run.command"
+    },
+    {
+      "id": "chi2026-adversarial-social-influence",
+      "title": "Large Language Model (LLM)-driven Adversarial Social Influences in Online Information Spread: Risks and Interventions",
+      "authors": [
+        "Zhuoran Lu",
+        "Gionnieve Lim",
+        "Ming Yin"
+      ],
+      "venue": "CHI",
+      "year": 2026,
+      "doi": "10.1145/3772318.3790442",
+      "path": "papers/chi2026-adversarial-social-influence",
+      "data_status": "not_included",
+      "analysis_status": "not_included"
+    }
+  ]
+}

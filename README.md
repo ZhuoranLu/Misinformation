@@ -1,52 +1,52 @@
-# Human-AI Interaction in Misinformation Spread
+# Human–AI Interaction and Misinformation
 
-This is a repository for the data and analysis code for a series of human-AI interaction works in the context of misinformation spread, including: 
+Data and analysis code for a series of papers on how AI and social influence affect people's detection and sharing of misinformation. Each paper has its own directory, data documentation, analysis files, and citation.
 
-The Effects of AI-based Credibility Indicators on the Detection and Spread of Misinformation under Social Influence. <br>
-**Zhuoran Lu**, Patrick Li, Weilong Wang, and Ming Yin. <br>
-The 25th ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW), Online, November 2022 <br>
+## Papers and datasets
 
-Understanding the Effects of AI-based Credibility Indicators When People Are Influenced By Both Peers and Experts. [in preparation] <br>
-**Zhuoran Lu**, Patrick Li, Weilong Wang, and Ming Yin. <br>
-The 43rd ACM Conference on Human Factors in Computing Systems (CHI), Yokohama, May 2025. <br>
+| Paper | Venue | Materials in this repository |
+| --- | --- | --- |
+| [The Effects of AI-based Credibility Indicators on the Detection and Spread of Misinformation under Social Influence](papers/cscw2022-credibility-indicators/) | CSCW 2022 | Three original data files and the descriptive-analysis notebook |
+| [Understanding the Effects of AI-based Credibility Indicators When People Are Influenced By Both Peers and Experts](papers/chi2025-peers-and-experts/) | CHI 2025 | Participant-pseudonymized data for three experiments, original analysis code, and a one-command runner |
+| [Large Language Model (LLM)-driven Adversarial Social Influences in Online Information Spread: Risks and Interventions](papers/chi2026-adversarial-social-influence/) | CHI 2026 | Publication and citation; data and analysis are not yet included |
 
-Large Language Model (LLM)-driven Adversarial Social Influences in Online Information Spread: Risks and Interventions. [in preparation] <br>
-**Zhuoran Lu***, Gionnieve Lim*, and Ming Yin. <br>
-The 44th ACM Conference on Human Factors in Computing Systems (CHI), Barcelona, May 2026. <br>
+## Organization
 
+```text
+papers/
+├── cscw2022-credibility-indicators/
+│   ├── README.md
+│   ├── descriptiveStatistics.ipynb
+│   └── experiment*.csv
+├── chi2025-peers-and-experts/
+│   ├── README.md
+│   ├── data/
+│   ├── run.command
+│   ├── analysis.py
+│   ├── analysis.R
+│   └── analysis_code/
+└── chi2026-adversarial-social-influence/
+    └── README.md
+papers.json
+references.bib
+```
 
-## Repository Structure
+The CSCW 2022 data files and notebook previously at the repository root have moved together into `papers/cscw2022-credibility-indicators/`. Their contents and filenames are unchanged, including the notebook's relative data paths.
 
-### 3 Data Files: 
+## Run the CHI 2025 analysis
 
-Individual level data for Experiment 1: experimentOneIndividualLevelRes.csv
+Download or clone the **whole repository**, then run:
 
-Individual level data of subjects' decisions under social influence in Experiment 2 : experimentTwoWithInfluenceIndividualLevelRes.csv
+```bash
+./papers/chi2025-peers-and-experts/run.command
+```
 
-Individual level data of subjects' decisions with no social influence in Experiment 2 : experimentTwoNoInfluenceIndividualLevelRes.csv
+On macOS, you can also double-click that `run.command` file. Python and R are required; the runner installs the pinned Python dependencies in a local virtual environment. Results are written into that paper's `results/` directory. See the [paper-specific instructions](papers/chi2025-peers-and-experts/README.md) for data definitions and the tested environment.
 
-#### Interpretation
+## Cite the relevant paper
 
-* `treatment` Int. The treatment of each subject assigned in each experiment. `0`: control treatment (no AI), `1`: AI was presented before subjects independently processed the information. (AI-before), `2`: AI was presented after subjects independently processed the information. (AI after),
-* `workerId` Int. The unique ID for each subject assigned in each experiment.
-* `finalCorrectness` Bool. Whether the final decision of the subject on the veracity of this news was correct or not.
-* `mlCorrectness` Bool. Whether the AI model's prediction on the veracity of this news was correct or not.
+Please cite the paper associated with the data you use. Each paper directory includes its citation, and [references.bib](references.bib) contains all three entries. [papers.json](papers.json) provides a machine-readable index of titles, DOIs, directories, and material availability.
 
+## Adding another paper
 
-
-
-### A Descriptive Analysis
-
-descriptiveStatistics.ipynb
-
-## 
-
-Fully cleaned analysis will be updated soon. This is a preliminary version of the repository.
-
-## Licensing & Citing
-
-When using or building upon the data in an academic publication, please consider citing as follows:
-
-Lu, Z., Li, P., Wang, W., & Yin, M. (2022). The Effects of AI-based Credibility Indicators on the Detection and Spread of Misinformation under Social Influence. Proceedings of the ACM on Human-Computer Interaction, 6(CSCW2), 1-27.
-
-https://doi.org/10.1145/3555562
+Add a directory under `papers/` named for its venue, year, and topic. Keep that paper's data, analysis, dependencies, and instructions together; update the index above, `papers.json`, and `references.bib`. State which materials are actually available rather than implying that a publication listing includes a dataset.

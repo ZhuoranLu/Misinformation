@@ -1,0 +1,3 @@
+# The CHI 2025 runner verifies byte-level checksums of its text inputs.
+papers/chi2025-peers-and-experts/** text eol=lf
+papers/chi2025-peers-and-experts/**/*.png -text

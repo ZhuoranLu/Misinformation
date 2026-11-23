@@ -1,0 +1,53 @@
+field,description
+experiment,实验编号 1/2/3（整理时新增）
+participant_id,与先前核对一致的 E*_P*** 附加代号（整理时新增）
+source_row,在各实验原 CSV 中从 0 开始的行序（整理时新增）
+workerId,"Pseudonymous participant ID, consistent across all released files. Original worker IDs are not included."
+treatment,"E1/E2: 0=No AI,1=AI；E3:0=No AI,1=High,2=Low"
+taskId,原任务编号
+globalId,原 globalId
+newsIndex,原新闻索引
+previousPredictions,原前序判断字符串，最后一项包含专家
+preSequence,原前序人员顺序字符串
+prediction,原参与者判断
+placebo,原 dummy/placebo 标记；正式表保留 placebo=0
+label,原记录中的新闻真假标签，原值保留
+expert,原专家判断
+selfCorrect,旧文件中已有的回答正确性，未重算
+finalWill,原分享意愿回答
+finalConfidence,原判断信心回答
+attentionCheck,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+attentionCorrect,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+mode,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+amount,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+crowd_prediction,原代码定义的 crowd 平均判断
+crowd_vote,原 crowd 多数判断
+crowd_accuracy,原 crowd 判断正确比例
+crowd_power,原 crowd 正确判断数量
+crowd_vote_correct,原 crowd 多数判断正确性
+expert_ai_agreement,当前正式任务历史导出中的原字段；不以回归阶段的门控版本替换
+reliance_expert,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+expert_crowd_agreement,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+constant,旧回归常数列
+previous_length,原 peers 数量字段
+hover_length,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+prev_length,原前序判断数量字段（含专家）
+expert_reliance,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+ai_presented_ai_exp_agree,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+ai_presented_ai_crowd_agree,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+exp_crowd_agree_frac,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+crowd_accuracy_centered,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+expert_ai_agreement_centered,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+treatment_centered,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+treatment_cag,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+label_real,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+label_fake,原历史正式任务 CSV 字段，数值和名称保留；定义见归档 notebook。
+high_correct,原高准确 AI 正误标记，包括对照组反事实分组；未按 label 重算
+low_correct,原低准确 AI 正误标记，包括对照组反事实分组；未按 label 重算
+expert_correct,旧文件中的专家正确性
+ai_correct,旧 CSV 中已保存的 AI 正确性编码，不套用新规则
+no_ai,旧代码已有的 No AI 指示变量
+correct_ai,旧代码已有的 correct_ai 字段
+incorrect_ai,旧代码已有的 incorrect_ai 字段
+high_ai,旧代码已有的 high_ai 字段
+low_ai,旧代码已有的 low_ai 字段
