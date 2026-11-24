@@ -47,6 +47,25 @@
       "path": "papers/chi2026-adversarial-social-influence",
       "data_status": "not_included",
       "analysis_status": "not_included"
+    },
+    {
+      "id": "hcomp2026-bayesian-cascade",
+      "title": "One AI Signal, Many Human Judgments: A Bayesian Cascade Analysis of AI-based Credibility Indicators in Online Information Spread",
+      "authors": [
+        "Zhuoran Lu",
+        "Weilong Wang",
+        "Yangyang Yu",
+        "Xinru Wang",
+        "Zhuoyan Li",
+        "Zhiwei Liu",
+        "Sophia Ananiadou"
+      ],
+      "venue": "HCOMP",
+      "year": 2026,
+      "doi": "10.1145/3834580.3838736",
+      "path": "papers/hcomp2026-bayesian-cascade",
+      "data_status": "not_included",
+      "analysis_status": "not_included"
     }
   ]
 }
